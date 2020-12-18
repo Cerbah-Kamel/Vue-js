@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>hello-world-vuejs</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="vue-app" class="vue-app">
+        <div class="grid-container">
+          <p id="name">Name : {{name}}</p>
+          <p id="country">country: {{country}}</p>
+          <p id="age">Age: {{age}}</p>
+        </div>
+        <div class="flex-container">
+          <button v-on:click="add(1)">Add a year</button>
+          <button v-on:click="sub(1)">decrease a year</button>
+          <button v-on:click="add(10)">Add 10 years</button>
+          <button v-on:click="sub(10)">decrease by 10 years</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="/dist/build.js"></script>
+  </body>
+</html>
