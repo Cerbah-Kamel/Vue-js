@@ -1,50 +1,8 @@
 body{
-    background: cornflowerblue;
-   
+    background-color: rgba(110, 131, 133, 0.877);
 }
-
-.wrapper .vue-app button {
-    margin: 10px;
-    width: 200px;
-}
-.vue-app{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-
-
-}
-
-.vue-app p{
-        height: 50px;
-        width: 150px;
-        border: 5px solid black;
-        text-align: center;
-        justify-content: center;
-        padding: 20px;
-
-}
-
-/* grid layout styling  */ 
-.grid-container {
-    display: grid;
-    grid-template-areas:
-     'n n c c'
-     'a a a a'
-    ;
-}
-#name {
-    grid-area: n;
-}
-#country{
-    grid-area: c;
-}
-#age{
-    justify-content: center;
+.body{
+    
     text-align: center;
-    width:400px ;
-    grid-area: a;
+    padding-top: 100px;
 }
-
-/* flex layout styling */
- 
